@@ -1,0 +1,13 @@
+25-x-2012
+
+Thoughts and code by David Moser for the dna-music project. So far it is all in python2.7.x, though this will change as I port it to other purposes, forking as I go. I will most certainly re-port as a Android app once I am confident in the robustness of the music generation algorithm.
+
+Thus far the project consists of three parts:
+    1. A dna-to-music parser which converts a simple gene-bank textfile of a genome to codon sequences that will encode proteins, then converts these codon sequences into useful chunks for writing to a midi file.
+    2. A "baroque" writer that converts the raw dna music data chunks into a three-part-harmony-with-continuo midi file.
+    3. A front end gui for user interaction, including (in later versions) choosing music types, instrumentation, playback, and file permanence, including the option to print out musical notation.
+
+
+(1) is mostly complete, and I will load as I collect it from its sources... I am new to git and this will take a few days. (2) is in active development as you read this. I am using fractal processes to expand the dna-code and "re-factor" it into python. Sounds kind of arrogant, even to me, as I write it. (3) is still in the form of some sketches and scribbled pseudo-code.
+
+Any help or suggestions are appreciated... blinddonkeyhotai@gmail.com
